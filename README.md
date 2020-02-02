@@ -1,7 +1,6 @@
 # Multithreaded Brute Force pattern matching
 Brute Force pattern matching utilizing multiple CPU threads. The algorithm finds all matches in a DNA alphabet text file with 20 million characters.
 ![Graph of the measurements](https://raw.githubusercontent.com/deyansp/MultiThreadBruteForce/master/Images/graph.PNG)
-![Svreenshot of the program running](https://raw.githubusercontent.com/deyansp/MultiThreadBruteForce/master/Images/running.JPG)
 # Interpretation of results & conclusion
 * The best performance occurred when using 8 threads, median time was 14ms.
 * Much faster compared to using a single thread (71 ms).
